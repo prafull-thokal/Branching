@@ -1,14 +1,19 @@
 package com;
 
 public class A {
-
+	int a= 10;
+	int b = 20;
 	public static void main(String[] args) {
 		
-			int a= 10;
-			int b = 20;
+		System.out.println("Hello");
+	}
+		public void m1()
+		{
 			int c = a+b;
 			System.out.println("addition is "+c);
-		public void m1()
+		}
+		
+		public void m2()
 		{
 		int a= 10;
 			int b = 20;
@@ -16,6 +21,6 @@ public class A {
 			System.out.println("Subtraction is "+c);
 		}
 
-	}
+	
 
 }
