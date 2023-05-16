@@ -8,7 +8,13 @@ public class A {
 			int b = 20;
 			int c = a+b;
 			System.out.println("addition is "+c);
-		
+		public void m1()
+		{
+		int a= 10;
+			int b = 20;
+			int c = a-b;
+			System.out.println("Subtraction is "+c);
+		}
 
 	}
 
